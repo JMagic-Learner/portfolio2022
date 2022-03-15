@@ -1,27 +1,46 @@
 {
   "name": "portfolio2022",
   "version": "1.0.0",
-  "description": "This application is a hard reset of my original 2022 portfolio",
-  "main": "index.js",
+  "description": "- The historian is an app that takes you back in time to shift across time periods and learn about their most significant events and conflicts that shaped our modern life. - This application will host and describe various conflicts that occured during the 20th. We hope to inform later generations of little-known wars. In addition, this application will allow user/survivor/veteran input to help \"narrate\" the timeline.",
+  "main": "server/server.js",
+  "engines": {
+    "node": "16.11.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd client && npm run start",
-    "install": "cd client && npm install"
+    "dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "npm i && cd client npm i",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.5.1",
+    "@mui/material": "^5.5.1",
+    "@mui/styled-engine-sc": "^5.0.3",
+    "apollo-server-express": "^3.6.4",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "googleapis": "^39.2.0",
+    "moment": "^2.29.1",
+    "mongodb": "^4.1.4",
+    "react-bootstrap": "^1.6.4",
+    "styled-components": "^5.3.1",
+    "typescript": "^4.6.2"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JMagic-Learner/portfolio2022.git"
+    "url": "git+https://github.com/JMagic-Learner/Conflict---Timeline.git"
   },
-  "keywords": [
-    "NODE"
-  ],
-  "author": "Jason ma",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JMagic-Learner/portfolio2022/issues"
+    "url": "https://github.com/JMagic-Learner/Conflict---Timeline/issues"
   },
-  "homepage": "https://github.com/JMagic-Learner/portfolio2022#readme",
-  "dependencies": {
-    "create-react-app": "^5.0.0"
-  }
+  "homepage": "https://github.com/JMagic-Learner/2022Portfolio#readme"
 }
