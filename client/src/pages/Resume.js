@@ -9,7 +9,7 @@ export default function Resume() {
 return (
     <Box>
 <Typography align="center" variant="h2"> RESUME </Typography>
-<Button size="small" sx={{ mx: "auto" }} ><a href="/download/Jason_Ma_Resume.PDF" download="Jason_Ma_Resume.PDF" margin="auto" >CLICK TO DOWNLOAD RESUME</a></Button>
+<Button size="small" sx={{ mx: "auto" }} ><a href="./assets/download/Jason_Ma_Resume.PDF" download="Jason_Ma_Resume.PDF" margin="auto" >CLICK TO DOWNLOAD RESUME</a></Button>
 </Box>
 );
 }
