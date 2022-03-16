@@ -16,6 +16,7 @@ import { createTheme } from '@mui/material/styles';
 import { ThemeProvider } from '@emotion/react';
 import Bio from './pages/Bio';
 import Projects from './pages/Projects';
+import Resume from './pages/Resume';
 
 
 // const theme = createTheme({
@@ -46,7 +47,8 @@ function App() {
         <Route exact path="/" element={<Home/>}> </Route>
         <Route exact path="Contact" element={<Contact/>}> </Route>
         <Route exact path="Bio" element={ <Bio />}> </Route>
-        <Route exact path="Projects" element={<Projects/>}></Route> 
+        <Route exact path="Projects" element={<Projects/>}></Route>
+        <Route exact path="Resume" element={<Resume/>}></Route> 
         </Routes>
         </ BrowserRouter>
       </Box>
