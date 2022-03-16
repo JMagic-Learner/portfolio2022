@@ -60,7 +60,7 @@ export default function Contact() {
       </CardContent>
       <CardActions>
       <Button size="small" sx={{ mx: "auto" }} >
-      <a href="https://github.com/JMagic-Learner" target="_blank" rel="noreferrer" margin="auto" >GITHUB Repository</a>
+      <a href="https://github.com/JMagic-Learner" class="downloadable" target="_blank" rel="noreferrer" margin="auto" >GITHUB Repository</a>
        </Button>
       </CardActions>
     </Card>
