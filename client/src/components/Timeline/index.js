@@ -71,19 +71,6 @@ export default function ColorsTimeline() {
             </CardContent>
           </Card></TimelineContent>
       </TimelineItem>
-
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot color="success" />
-        </TimelineSeparator>
-        <TimelineContent>
-          <Card>
-            <CardContent>
-              <Typography> DHS - Transport Security Agent </Typography>
-              <Typography> May 2019 - November 2020</Typography>
-            </CardContent>
-          </Card></TimelineContent>
-      </TimelineItem>
     </Timeline>
   );
 }
