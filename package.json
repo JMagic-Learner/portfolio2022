@@ -7,11 +7,16 @@
     "node": "16.11.1"
   },
   "scripts": {
-    "start": "cd client && npm run start",
+    "start": "node server/server.js",
     "dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
-    "install": "cd client && npm i",
+    "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed",
-    "build": "cd client && npm run build"
+    "build": "cd client && npm run build",
+    "Oldstart": "cd client && npm run start",
+    "Olddev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "Oldinstall": "cd client && npm i",
+    "Oldseed": "cd server && npm run seed",
+    "Oldbuild": "cd client && npm run build"
   },
   "keywords": [],
   "author": "",
