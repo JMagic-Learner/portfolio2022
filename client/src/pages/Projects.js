@@ -4,8 +4,8 @@ import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-// import { useQuery } from '@apollo/client';
-// import { QUERY_PROJECTS } from '../utils/queries';
+import { useQuery } from '@apollo/client';
+import { QUERY_PROJECTS } from '../utils/queries';
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
@@ -15,20 +15,20 @@ const Item = styled(Paper)(({ theme }) => ({
 }));
 
 export default function Projects() {
-  // const { loading, data } = useQuery(QUERY_PROJECTS);
-  // if (loading) {
-  //   console.log("we have queried the database for projects");
-  // }
-  // if (data) {
-  //   console.log('We have found data from projects');
-  // }
-  // if (data?.projects) {
-  //   console.log("There is something in ehre");
-  // }
+  const { loading, data } = useQuery(QUERY_PROJECTS);
+  if (loading) {
+    console.log("we have queried the database for projects");
+  }
+  if (data) {
+    console.log('We have found data from projects');
+  }
+  if (data?.projects) {
+    console.log("There is something in ehre");
+  }
   // Find projects array or return empty string.
-  // const ProjectsArray = data?.projects || [];
-  // console.log(ProjectsArray);
-  // console.log(JSON.stringify(ProjectsArray.name));
+  const ProjectsArray = data?.projects || [];
+  console.log(ProjectsArray);
+  console.log(JSON.stringify(ProjectsArray.name));
     return(
 
           <Box sx={{ flexGrow: 1 }}>
