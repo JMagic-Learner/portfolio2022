@@ -32,13 +32,6 @@ export default function Home() {
         
     <Box sx={{ flexGrow: 1 }}>
            <Grid container spacing={2}> 
-
-            
-
-            <Grid item xs={4} md={8} lg={12}>
-            
-            <Typography variant="h4" margin="auto" align="center">This is the homepage</Typography> 
-           </Grid>
       <Grid item sx={4} md={8} lg={12} >
     <Card >
        <CardMedia
@@ -49,18 +42,10 @@ export default function Home() {
       /> 
       {/* <Image src="./assets/images/AssaultIntercessor.jpg" /> */}
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div" margin="auto">
-          Github
-        </Typography>
-        <Typography variant="body2" color="text.secondary" sx={4} md={8} lg={12} >
-          Coding Repository for JMAGIC-LEARNER
+        <Typography gutterBottom variant="h5" component="div" margin="auto" align="center">
+            JASON MA PORTFOLIO
         </Typography>
       </CardContent>
-      <CardActions>
-      <Button size="small" sx={{ mx: "auto" }} >
-      <Link margin="auto" to="/Infinity"> Learn More</Link>
-       </Button>
-      </CardActions>
     </Card>
     </Grid>
     </Grid>
