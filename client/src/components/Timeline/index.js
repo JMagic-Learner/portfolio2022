@@ -40,6 +40,22 @@ export default function ColorsTimeline() {
 
         </TimelineContent>
       </TimelineItem>
+      <TimelineItem>
+        <TimelineSeparator>
+          <TimelineDot color="success" />
+        </TimelineSeparator>
+        <TimelineContent>
+          <Card>
+            <CardContent>
+              <Typography align="center" variant="h6"> Commencement Bay Properties - Analyst Administrator (Part Time) </Typography>
+              <Typography align="center" variant="h6"> January 2020 - May 2021 </Typography>
+              <Typography align="justify"> ● Invested in high-potential real estate properties. </Typography>
+              <Typography align="justify"> ● Oversaw the expenditures for renovations. </Typography>
+              <Typography align="justify"> ● Cross analyzed market trends to optimize final sale price. </Typography>
+              <Typography align="justify"> ● Negotiated with contractors and real estate agents.</Typography>
+            </CardContent>
+          </Card></TimelineContent>
+      </TimelineItem>
       {/* TSA Agent / ATLAS */}
       <TimelineItem>
         <TimelineSeparator>
