@@ -38,7 +38,7 @@ export default function Projects() {
 
            
               <Grid item xs={12} sm={6} md={8} sx={{ m: 'auto' }}>
-              {/* {ProjectsArray.map((element) => {
+              {ProjectsArray.map((element) => {
               if(element) {
               console.log("element has been detected")
               }
@@ -50,13 +50,12 @@ export default function Projects() {
                 <Item>
                 <Typography> {element.name} </Typography>
                 <Typography> {element.description} </Typography>
-                {/* <Link to={`/Article1/${element._id}`} >
-                <Typography variant="h6"> {element.articleTitle}</Typography>
-                </Link> */}
-                {/* </Item> */}
-              {/* {/* );
-                  })
-                } */}
+                <Typography> {element.link} </Typography>
+                </Item>
+              );
+            
+              })}
+                
               </Grid> 
           
               
