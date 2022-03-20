@@ -12,6 +12,7 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed",
     "build": "cd client && npm run build",
+    "heroku-postbuild": "cd client && npm install && npm run build",
     "Oldstart": "cd client && npm run start",
     "Olddev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "Oldinstall": "cd client && npm i",
@@ -22,7 +23,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^5.3.0"
+    
   },
   "dependencies": {
     "@emotion/react": "^11.8.2",
@@ -38,7 +39,8 @@
     "mongodb": "^4.1.4",
     "react-bootstrap": "^1.6.4",
     "styled-components": "^5.3.1",
-    "typescript": "^4.6.2"
+    "typescript": "^4.6.2",
+    "concurrently": "^5.3.0"
   },
   "repository": {
     "type": "git",
