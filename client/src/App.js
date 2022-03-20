@@ -18,7 +18,22 @@ import Bio from './pages/Bio';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 
+//MERN STACK IMPORTS
+import {
+  ApolloClient,
+  InMemoryCache,
+  ApolloProvider,
+  createHttpLink,
+} from '@apollo/client';
 
+const httpLink = createHttpLink({
+  uri: '/graphql',
+});
+
+const client = new ApolloClient({
+  // Set up our client to execute the `authLink` middleware prior to making the request to our GraphQL API
+  cache: new InMemoryCache(),
+});
 // const theme = createTheme({
 //   palette: {
 //     primary: {
@@ -39,7 +54,7 @@ import Resume from './pages/Resume';
 
 function App() {
   return (
-    // <ApolloProvider client={client}>
+    <ApolloProvider client={client}>
     <Box>
       <ButtonAppBar/>
       <BrowserRouter>
@@ -52,7 +67,7 @@ function App() {
         </Routes>
         </ BrowserRouter>
       </Box>
-      // </ApolloProvider>
+       </ApolloProvider>
 
   )
 }
