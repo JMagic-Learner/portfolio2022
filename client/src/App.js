@@ -27,6 +27,7 @@ import {
 } from '@apollo/client';
 
 const httpLink = createHttpLink({
+  link: httpLink,
   uri: '/graphql',
 });
 

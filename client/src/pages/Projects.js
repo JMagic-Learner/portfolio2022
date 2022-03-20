@@ -14,7 +14,11 @@ const Item = styled(Paper)(({ theme }) => ({
   color: theme.palette.text.secondary,
 }));
 
+
+
 export default function Projects() {
+
+  const [project, setProject] = React.useState('');
   const { loading, data } = useQuery(QUERY_PROJECTS);
   if (loading) {
     console.log("we have queried the database for projects");
