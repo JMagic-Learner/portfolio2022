@@ -9,6 +9,7 @@ export const QUERY_PROJECTS = gql`
       description
       link
     }
-  }`;
+  }
+  `;
 
   

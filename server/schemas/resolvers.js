@@ -5,7 +5,7 @@ const { Projects } = require('../models');
 const resolvers = {
   Query: {
     projects: async () => {
-      return Projects.find();
+      return Projects.find().sort({"name":-1});
     },
   },
 };

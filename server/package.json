@@ -2,9 +2,11 @@
   "name": "server",
   "version": "1.0.0",
   "description": "This is the server package for PORTFOLIO2022",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "Test"
+    "start": "node server.js",
+    "watch": "nodemon",
+    "seed": "node seeders/seed.js"
   },
   "repository": {
     "type": "git",
