@@ -32,7 +32,7 @@ export default function Home() {
         
     <Box sx={{ flexGrow: 1 }}>
            <Grid container spacing={2}> 
-      <Grid item sx={4} md={8} lg={12} >
+      <Grid item sx={8} md={12} lg={12} >
     <Card >
        <CardMedia
         component="img"
@@ -44,6 +44,14 @@ export default function Home() {
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" margin="auto" align="center">
             JASON MA PORTFOLIO
+        </Typography>
+      </CardContent>
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div" margin="auto" align="center">
+            Welcome to my professional portfolio, REACT 2.0. You can go ahead and check out the the first
+            rendition of this REACT portfolio via this link <a href="https://portfolio-jmagic.herokuapp.com/" class="downloadable" target="_blank" rel="noreferrer" margin="auto" >REACT Portfolio 1.0</a>
+            Originally deployed on 8/30/2021, Portfolio V1 application utilizes Node Js, Express, Sequelize MySql, JAWSDB , Handlebars, Heroku and other dependencies. This current updated version is utilizes
+            MERN, (MONGODB, EXPRESS, REACT, NODE.JS), taking full advantage of front-end and back end processes to display this application to you. 
         </Typography>
       </CardContent>
     </Card>

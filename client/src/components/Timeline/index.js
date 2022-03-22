@@ -12,9 +12,6 @@ import TimelineDot from '@mui/lab/TimelineDot';
 //Card Components
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import CardActions from '@mui/material/CardActions';
-import Button from '@mui/material/Button';
 
 export default function ColorsTimeline() {
   return (

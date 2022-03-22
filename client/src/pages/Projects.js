@@ -26,12 +26,6 @@ export default function Projects() {
   if (data) {
     console.log('We have found data from projects');
   }
-  if (data?.projects) {
-    console.log("There is something in ehre");
-  }
-  if (data?.name) {
-    console.log("There is something in Name");
-  }
 
   // Find projects array or return empty string.
   const ProjectsArray = data?.projects || [];

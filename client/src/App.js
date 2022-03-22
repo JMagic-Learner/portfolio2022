@@ -17,6 +17,7 @@ import { ThemeProvider } from '@emotion/react';
 import Bio from './pages/Bio';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
+import Grid from '@mui/material/Grid';
 
 //MERN STACK IMPORTS
 import {
@@ -57,7 +58,10 @@ function App() {
   return (
     <ApolloProvider client={client}>
     <Box>
+      <Grid container spacing={2}>
+      <Grid item sx={8} md={12} lg={12} >
       <ButtonAppBar/>
+      </Grid> 
       <BrowserRouter>
         <Routes>
         <Route exact path="/" element={<Home/>}> </Route>
@@ -67,6 +71,7 @@ function App() {
         <Route exact path="Resume" element={<Resume/>}></Route> 
         </Routes>
         </ BrowserRouter>
+        </Grid>
       </Box>
        </ApolloProvider>
 

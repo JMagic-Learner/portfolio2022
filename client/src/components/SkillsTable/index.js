@@ -1,7 +1,5 @@
 import * as React from 'react';
-import { Typography } from '@mui/material';
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
 import { Grid } from '@mui/material';
 
 //Table Components
@@ -35,6 +33,7 @@ function createData(CODING, FINANCE, ADMINISTRATIVE, REAL_ESTATE) {
     createData('HTML', "", "", "Lending disclosures"),
     createData('JAVASCRIPT', "", "", ""),
     createData('MERN', "", "", ""),
+    createData('ReactJS', "", "", ""),
   ];
 export default function SkillsTable() {
     return(
