@@ -42,7 +42,7 @@ export default function Projects() {
             <Grid container spacing={1}>
 
            
-              <Grid item xs={12} sm={6} md={8} sx={{ m: 'auto' }}>
+              <Grid item xs={8} sm={6} md={4} sx={{ m: 'auto' }}>
               {ProjectsArray.map((element) => {
                 
               if(element) {
