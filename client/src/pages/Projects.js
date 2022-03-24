@@ -39,10 +39,10 @@ export default function Projects() {
           <Box sx={{ flexGrow: 1 }}>
             <Typography sx={{ p: 2.0 }} variant="h2" align="center"> Projects</Typography>
             <Typography sx={{ p: 2.0 }} variant="h2" align="center"> Testing</Typography>
-            <Grid container spacing={2}>
+            <Grid container spacing={1}>
 
            
-            <Grid item xs={6} md={2}>
+              <Grid item xs={12} sm={6} md={8} sx={{ m: 'auto' }}>
               {ProjectsArray.map((element) => {
                 
               if(element) {
@@ -57,7 +57,7 @@ export default function Projects() {
                 console.log("The link to live is: " + element.link);
               }
               return(
-               <Card sx={{ flexGrow: 1 }}>
+               <Card>
                  <CardMedia
                         component="img"
                         height="400"
