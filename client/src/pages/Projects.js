@@ -42,7 +42,7 @@ export default function Projects() {
             <Grid container spacing={2}>
 
            
-              <Grid item xs={12} sm={6} md={8} sx={{ m: 'auto' }}>
+            <Grid item xs={6} md={2}>
               {ProjectsArray.map((element) => {
                 
               if(element) {
@@ -57,7 +57,7 @@ export default function Projects() {
                 console.log("The link to live is: " + element.link);
               }
               return(
-               <Card>
+               <Card sx={{ flexGrow: 1 }}>
                  <CardMedia
                         component="img"
                         height="400"
