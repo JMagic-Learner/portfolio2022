@@ -14,7 +14,6 @@ const Item = styled(Paper)(({ theme }) => ({
   color: theme.palette.text.secondary,
 }));
 
-const livelink = "";
 
 export default function Projects() {
 
@@ -57,7 +56,7 @@ export default function Projects() {
                 <Item>
                 <Typography> {element.name} </Typography>
                 <Typography> {element.description} </Typography>
-                <Typography> <a href={livelink} target="_blank" rel="noreferrer" margin="auto" > {element.link} </a> </Typography>
+                <Typography> {element.link} </Typography>
                 <Typography> {element.github} </Typography>
                 <Typography> {element.media} </Typography>
                 </Item>
