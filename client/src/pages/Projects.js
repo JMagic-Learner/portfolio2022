@@ -4,6 +4,10 @@ import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import CardActions from '@mui/material/CardActions';
 import { useQuery } from '@apollo/client';
 import { QUERY_PROJECTS } from '../utils/queries';
 
@@ -40,6 +44,7 @@ export default function Projects() {
            
               <Grid item xs={12} sm={6} md={8} sx={{ m: 'auto' }}>
               {ProjectsArray.map((element) => {
+                
               if(element) {
               console.log("element has been detected")
               }
@@ -52,13 +57,20 @@ export default function Projects() {
                 console.log("The link to live is: " + element.link);
               }
               return(
-                <Item>
-                <Typography> {element.name} </Typography>
+               <Card>
+                 <CardMedia
+                        component="img"
+                        height="400"
+                        image={'./assets/images' + element.name +'.jpg'}
+                        alt="green iguana"
+                  /> 
+                 <CardContent>
                 <Typography> {element.description} </Typography>
-                <Typography> {element.link} </Typography>
-                <Typography> {element.github} </Typography>
-                <Typography> {element.media} </Typography>
-                </Item>
+                <Typography> Live Link: {element.link} </Typography>
+                <Typography> Github: {element.github} </Typography>
+                <Typography> Media: {element.media} </Typography>
+                </CardContent>
+                </Card>
               );
             
               })}
