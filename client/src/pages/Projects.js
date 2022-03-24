@@ -48,11 +48,18 @@ export default function Projects() {
                 console.log("A title for the project has been detected");
                 console.log("The title is: " + element.name);
               }
+              if(element.link) {
+                console.log("A link for the project has been detected");
+                console.log("The link to live is: " + element.link);
+                let livelink = '"'+ element.link +'"';
+              }
               return(
                 <Item>
                 <Typography> {element.name} </Typography>
                 <Typography> {element.description} </Typography>
-                <Typography> {element.link} </Typography>
+                <Typography> <a href={livelink} target="_blank" rel="noreferrer" margin="auto" > {element.link} </a> </Typography>
+                <Typography> {element.github} </Typography>
+                <Typography> {element.media} </Typography>
                 </Item>
               );
             

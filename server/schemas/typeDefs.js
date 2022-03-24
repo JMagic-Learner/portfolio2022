@@ -6,6 +6,8 @@ const typeDefs = gql`
     name: String
     description: String
     link: String
+    github: String
+    media: String
   }
 
 

@@ -10,6 +10,12 @@ const projectSchema = new Schema({
     },
     link: {
         type: String,
+    },
+    github: {
+        type: String,
+    },
+    media: {
+        type: String,
     }
 });
 

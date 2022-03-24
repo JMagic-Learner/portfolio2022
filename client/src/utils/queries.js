@@ -8,6 +8,8 @@ export const QUERY_PROJECTS = gql`
       name
       description
       link
+      github
+      media
     }
   }
   `;

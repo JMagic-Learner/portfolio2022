@@ -2,66 +2,148 @@
   {
     "name": "Timed - Quiz",
     "link": "https://jmagic-learner.github.io/Timed-Quiz",
-    "description": " Come test your knowledge of coding with this simple application"
+    "description": " Come test your knowledge of coding with this simple application",
+    "github": "https://github.com/JMagic-Learner/Timed-Quiz.git",
+    "media": "Insert Media Query here"
 },
 {
     "name": "Horiseon - Code Retraction",
-    "link": "https://jmagic-learner.github.io/Code-Refractor---UWBootCamp/",
-    "description": " An coding exercise that is demonstrates coding standards"
+    "link": "Requires installation of local files to demonstrate this application",
+    "description": " An coding exercise that is demonstrates coding standards",
+    "github": "https://jmagic-learner.github.io/Code-Refractor---UWBootCamp/",
+    "media": "Insert Media Query here"
 },
 {
     "name": "Day - Planner",
     "link": "https://jmagic-learner.github.io/Day-Planner",
-    "description": "Demonstrates front end usage of third party api."
+    "description": "Demonstrates front end usage of third party api.",
+    "github": "https://github.com/JMagic-Learner/Day-Planner.git",
+    "media": "Insert Media Query here"
 },
 {
     "name": "Weather - Forecaster",
     "link": "https://jmagic-learner.github.io/Weather_App/",
-    "description": "Using OpenWeather API, I feed forecast data into a front-end UI. This front end UI also allows user interactivity for API searching"
+    "description": "Using OpenWeather API, I feed forecast data into a front-end UI. This front end UI also allows user interactivity for API searching",
+    "github": "https://github.com/JMagic-Learner/Weather_App.git",
+    "media": "Insert Media Query here"
 },
 {
     "name": "Password - Generator",
     "link": "https://jmagic-learner.github.io/Password-Generator/",
-    "description": "Using for and while loops, we use user input/constraints to autogenerate passwords"
+    "description": "Using for and while loops, we use user input/constraints to autogenerate passwords",
+    "github": "https://github.com/JMagic-Learner/Password-Generator.git",
+    "media": "Insert Media Query here"
 },
 {
     "name": "Project 1 - Life Organizer",
-    "link": "https://mohamedmesahel.github.io/Calendar/main.html/",
-    "description": "A coding project that utilizes third party API, a CSS bundle, and other front end utilities"
+    "link": "https://mohamedmesahel.github.io/Calendar/main.html",
+    "description": "A coding project that utilizes third party API, a CSS bundle, and other front end utilities",
+    "github":"https://github.com/MohamedMesahel/Calendar",
+    "media": "Insert Media Query here"
 },
 {
     "name": "Pro-ReadMe Generator",
-    "link": "https://jmagic-learner.github.io/ProReadMe-Gen",
-    "description": "Auto generate a readme file through usage of NPM Inquirer"
+    "link": "This application requires a local installation for usage",
+    "description": "Auto generate a readme file through usage of NPM Inquirer",
+    "github": "https://jmagic-learner.github.io/ProReadMe-Gen/",
+    "media": "Insert Media Query here"
 },
 {
     "name": "Write Some Notes",
     "link": "https://jmagic-learner.github.io/Write_Some_Notes/",
-    "description": "As a business owner, you want to be able to take down some notes for your everyday processes."
+    "description": "As a business owner, you want to be able to take down some notes for your everyday processes.",
+    "github": "https://github.com/JMagic-Learner/Write_Some_Notes",
+    "media": "Insert Media Query here"
 },
 {
     "name": "Employee_Profile",
-    "link": "https://jmagic-learner.github.io/Employee_Profile/",
-    "description": "Work through a front end ui that displays the relationships of a team"
+    "link": "Link to live application no longer valid",
+    "description": "Work through a front end ui that displays the relationships of a team",
+    "github": "https://jmagic-learner.github.io/Employee_Tracker/",
+    "media": "Insert Media Query here"
 },
 {
     "name": "Ecommerce-Infrastructure",
-    "link": "https://jmagic-learner.github.io/ECommerce-Infrastructure/",
-    "description": "Given a pre-existing file structure of a backend server, I connected the dots to populate front end UI with data"
+    "link": "Requires local installation to demonstrate usage",
+    "description": "Given a pre-existing file structure of a backend server, I connected the dots to populate front end UI with data",
+    "github": "https://github.com/JMagic-Learner/ECommerce-Infrastructure",
+    "media": "Insert Media Query here"
 },
 {
     "name": "Project 2 - playlistify",
     "link": "https://playlistify-pod3.herokuapp.com/",
-    "description": "An application where you can add / search/ find songs/albums etc through the spotify API"
+    "description": "An application where you can add / search/ find songs/albums etc through the spotify API",
+    "github": "https://github.com/spreston4/playlistify",
+    "media": "Insert Media Query here"
 },
 {
     "name": "ReadMe-Generator",
-    "link": "https://github.com/JMagic-Learner/ProReadMe-Gen.git",
-    "description": "Generate a readme by following inquirer prompts"
+    "link": "Requires Local installation to demonstrate files",
+    "description": "Generate a readme by following inquirer prompts",
+    "github": "https://github.com/JMagic-Learner/ProReadMe-Gen.git",
+    "media": "Insert Media Query here"
 },
 {
     "name": "Employee_Tracker",
-    "link": "https://jmagic-learner.github.io/Employee_Tracker/",
-    "description": "Browse the SCP foundation database of employees"
+    "link": "https://drive.google.com/file/d/1AHeMJXj4cfLfohONvgtQjokRUWX8DCxs/view?usp=sharing",
+    "description": "Browse the SCP foundation database of employees",
+    "github": "https://jmagic-learner.github.io/Employee_Tracker/",
+    "media": "Insert Media Query here"
+},
+{
+    "name": "Ecommerce-BackEnd",
+    "link": " https://github.com/JMagic-Learner/ECommerce-Infrastructure/",
+    "description": "Description: This application is intended to mimic and demonstrate working capability of a ecommerce site. This application includes; Routes, Databases, Models, API etc. Combined with IMSOMNIA, the user tests GET, POST, DELETE, CREATE, PUT functions.",
+    "github": "https://github.com/JMagic-Learner/ECommerce-Infrastructure",
+    "media": "Insert Media Query here"
+},
+{
+    "name": "Portfolio 2 Ver 1.0",
+    "link": "https://drive.google.com/file/d/16dqvt_8-_iU110pS7DmIaL9LhTJcGI9H/view",
+    "description": "The precursor to this REACT application",
+    "github:": "https://jmagic-learner.github.io/ProfessionalPortfolio/",
+    "media": "Insert Media Query here"
+},
+{
+    "name": "REGEX-Tutorial",
+    "link": "This is just a text tutorial, no live link",
+    "description": "Somewhere along the line as a coder, you've probably heard of Regex Expressions. An regex expression is essentially a search function that allows the user to modify the parameters of the search. This Github READme goes through a tutorial of REGEX expressions.",
+    "github": "https://github.com/JMagic-Learner/Regex-Made-Easy",
+    "media": "Insert Media Query here"
+},
+{
+    "name": "Fitness-Tracker",
+    "link": "https://tranquil-harbor-49024.herokuapp.com/",
+    "description": "Description: This application helps track and record your workout regimen. As a user, you can build your own workout plan with the help of MongoDB.",
+    "github": "https://github.com/JMagic-Learner/Workout-Tracker",
+    "media": "Insert Media Query here"
+},
+{
+    "name": "Portfolio 2 Ver 1.5",
+    "link": "https://jmagic-learner.github.io/Dynamic-Portfolio/",
+    "description": "The precursor to this REACT application, with SQL database",
+    "github": "https://github.com/JMagic-Learner/Dynamic-Portfolio",
+    "media": "Insert Media Query here"
+},
+{
+    "name": "Book Search MERN",
+    "link": "https://booksserachmen.herokuapp.com/",
+    "description": "A application that allows you to search books. One of the first applications that uses MERN structure",
+    "github": "https://github.com/JMagic-Learner/Book-Search-MERN.git",
+    "media": "Insert Media Query here"
+},
+{
+    "name": "Historian",
+    "link": "https://historian-timeline.herokuapp.com/",
+    "description": "The historian is an app that takes you back in time to shift across time periods and learn about their most significant events and conflicts that shaped our modern life. This application will host and describe various conflicts that occurred during the 20th. We hope to inform later generations of little-known wars. In addition, this application will allow Users to navigate through the timeline to learn about different conflict events that happend in the last 50 years.The Apllication also provide WIKI search engine as well as NY times search engine that provide modern and archived atricales based on the user search.",
+    "github": "https://github.com/JMagic-Learner/Historian",
+    "media": "Insert Media Query here"
+},
+{
+    "name": "Zenith Highlight",
+    "link": "https://dashboard.heroku.com/apps/zenithhighlight",
+    "description": "Are you a hobby wargamer? This application aims to host digital tools to streamline gameplay for tabletop gaming such as Warhammer 40k, Infinity etc",
+    "github": "https://github.com/JMagic-Learner/ZenithHighlight",
+    "media": "Insert Media Query here"
 }
 ]
