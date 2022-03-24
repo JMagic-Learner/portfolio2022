@@ -51,7 +51,7 @@ export default function Projects() {
               if(element.link) {
                 console.log("A link for the project has been detected");
                 console.log("The link to live is: " + element.link);
-                let livelink = '"'+ element.link +'"';
+                livelink = '"'+ element.link +'"';
               }
               return(
                 <Item>
