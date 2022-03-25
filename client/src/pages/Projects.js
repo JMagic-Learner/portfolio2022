@@ -67,9 +67,9 @@ export default function Projects() {
                  <CardContent>
                 <Typography align="center" variant="h6"> {element.name} </Typography>
                 <Typography > {element.description} </Typography>
-                <Typography align="center" variant="h6"> Live Link: {element.link} </Typography>
-                <Typography align="center" variant="h6"> Github: {element.github} </Typography>
-                <Typography align="center" variant="h6"> Media: {element.media} </Typography>
+                <Typography align="center" > Live Link: {element.link} </Typography>
+                <Typography align="center" > Github: {element.github} </Typography>
+                <Typography align="center" > Media: {element.media} </Typography>
                 </CardContent>
                 </Card>
               );
