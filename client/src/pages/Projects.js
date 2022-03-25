@@ -61,7 +61,7 @@ export default function Projects() {
                  <CardMedia
                         component="img"
                         height="300"
-                        image={'./assets/images/' + element.name +'.jpg'}
+                        image={'./assets/images/' + element.name +'.jpg'} 
                         alt="green iguana"
                   /> 
                  <CardContent>

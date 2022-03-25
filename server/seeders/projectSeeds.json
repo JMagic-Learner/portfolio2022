@@ -49,7 +49,7 @@
     "media": "Insert Media Query here"
 },
 {
-    "name": "Write Some Notes",
+    "name": "Write-Some-Notes",
     "link": "https://jmagic-learner.github.io/Write_Some_Notes/",
     "description": "As a business owner, you want to be able to take down some notes for your everyday processes.",
     "github": "https://github.com/JMagic-Learner/Write_Some_Notes",
@@ -70,21 +70,21 @@
     "media": "Insert Media Query here"
 },
 {
-    "name": "Project 2 - playlistify",
+    "name": "Playlistify",
     "link": "https://playlistify-pod3.herokuapp.com/",
-    "description": "An application where you can add / search/ find songs/albums etc through the spotify API",
+    "description": "A group project that aims to use Spotify API to read, search, and load songs via keywords",
     "github": "https://github.com/spreston4/playlistify",
     "media": "Insert Media Query here"
 },
 {
-    "name": "ReadMe-Generator",
+    "name": "Pro-ReadMe",
     "link": "Requires Local installation to demonstrate files",
     "description": "Generate a readme by following inquirer prompts",
     "github": "https://github.com/JMagic-Learner/ProReadMe-Gen.git",
     "media": "Insert Media Query here"
 },
 {
-    "name": "Employee_Tracker",
+    "name": "Employee-Tracker",
     "link": "https://drive.google.com/file/d/1AHeMJXj4cfLfohONvgtQjokRUWX8DCxs/view?usp=sharing",
     "description": "Browse the SCP foundation database of employees",
     "github": "https://jmagic-learner.github.io/Employee_Tracker/",
@@ -140,7 +140,7 @@
     "media": "Insert Media Query here"
 },
 {
-    "name": "Zenith Highlight",
+    "name": "ZenithHighlight",
     "link": "https://dashboard.heroku.com/apps/zenithhighlight",
     "description": "Are you a hobby wargamer? This application aims to host digital tools to streamline gameplay for tabletop gaming such as Warhammer 40k, Infinity etc",
     "github": "https://github.com/JMagic-Learner/ZenithHighlight",
