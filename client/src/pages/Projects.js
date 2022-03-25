@@ -65,10 +65,11 @@ export default function Projects() {
                         alt="green iguana"
                   /> 
                  <CardContent>
-                <Typography> {element.description} </Typography>
-                <Typography> Live Link: {element.link} </Typography>
-                <Typography> Github: {element.github} </Typography>
-                <Typography> Media: {element.media} </Typography>
+                <Typography align="center" variant="h6"> {element.name} </Typography>
+                <Typography > {element.description} </Typography>
+                <Typography align="center" variant="h6"> Live Link: {element.link} </Typography>
+                <Typography align="center" variant="h6"> Github: {element.github} </Typography>
+                <Typography align="center" variant="h6"> Media: {element.media} </Typography>
                 </CardContent>
                 </Card>
               );
