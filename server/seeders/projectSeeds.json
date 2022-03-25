@@ -1,41 +1,41 @@
 [
   {
-    "name": "Timed - Quiz",
+    "name": "Timed-Quiz",
     "link": "https://jmagic-learner.github.io/Timed-Quiz",
     "description": " Come test your knowledge of coding with this simple application",
     "github": "https://github.com/JMagic-Learner/Timed-Quiz.git",
     "media": "Insert Media Query here"
 },
 {
-    "name": "Horiseon - Code Retraction",
+    "name": "Code-Refraction",
     "link": "Requires installation of local files to demonstrate this application",
     "description": " An coding exercise that is demonstrates coding standards",
     "github": "https://jmagic-learner.github.io/Code-Refractor---UWBootCamp/",
     "media": "Insert Media Query here"
 },
 {
-    "name": "Day - Planner",
+    "name": "Day-Planner",
     "link": "https://jmagic-learner.github.io/Day-Planner",
     "description": "Demonstrates front end usage of third party api.",
     "github": "https://github.com/JMagic-Learner/Day-Planner.git",
     "media": "Insert Media Query here"
 },
 {
-    "name": "Weather - Forecaster",
+    "name": "Weather-Forecaster",
     "link": "https://jmagic-learner.github.io/Weather_App/",
     "description": "Using OpenWeather API, I feed forecast data into a front-end UI. This front end UI also allows user interactivity for API searching",
     "github": "https://github.com/JMagic-Learner/Weather_App.git",
     "media": "Insert Media Query here"
 },
 {
-    "name": "Password - Generator",
+    "name": "Password-Generator",
     "link": "https://jmagic-learner.github.io/Password-Generator/",
     "description": "Using for and while loops, we use user input/constraints to autogenerate passwords",
     "github": "https://github.com/JMagic-Learner/Password-Generator.git",
     "media": "Insert Media Query here"
 },
 {
-    "name": "Project 1 - Life Organizer",
+    "name": "Calendar",
     "link": "https://mohamedmesahel.github.io/Calendar/main.html",
     "description": "A coding project that utilizes third party API, a CSS bundle, and other front end utilities",
     "github":"https://github.com/MohamedMesahel/Calendar",
