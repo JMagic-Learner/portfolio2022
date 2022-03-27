@@ -110,7 +110,7 @@ export default function Contact() {
       </CardContent>
       <CardActions>
       <Button size="small" sx={{ mx: "auto" }} >
-      <a href="www.linkedin.com/in/JasonMa2022" target="_blank" rel="noreferrer" margin="auto" >LINKEDIN </a>
+      <a href="https://linkedin.com/in/JasonMa2022" target="_blank" rel="noreferrer" margin="auto" >LINKEDIN </a>
       
        </Button>
       </CardActions>
