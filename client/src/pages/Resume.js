@@ -15,14 +15,14 @@ return (
 
 <Typography align="center" variant="h2" marginTop="1%"> RESUME </Typography>
 
-<Grid container spacing={2}> 
-<Grid item xs={12} sm={6} md={8} lg={10} sx={{ m: 'auto' }}>
+<Grid container spacing={2} margin="auto"> 
+<Grid item xs={8} sm={8} md={8} lg={10} sx={{ m: 'auto' }}>
 <Card>
   <CardContent align="center">
 <Button size="small"  sx={{ mx: "auto" }} ><Typography align="center"><a href="/assets/download/JASON_MA_RESUME.PDF" download="Jason_Ma_Resume.PDF">CLICK TO DOWNLOAD RESUME</a></Typography></Button>
 </CardContent>
 </Card>
-<Typography align="center" variant="h6"> 
+<Typography align="center" variant="h8" margin="auto"> 
 Recently certified in full-stack development for Javascript, MongoDB, HTML, CSS, REACT.js and GraphQl. 
 Prioritizes UI design and end-user interactivity. Experienced with team projects for coding. 
 Example projects include a calendar app to record and track nearby events, a project that uses Spotify API to display soundtracks and songs via search, and Historian, a project that utilizes MERN stack and database queries to dynamically render and store historic events. 
@@ -30,13 +30,13 @@ Currently coding an application to streamline Warhammer 40k 9E Objective scoring
 Looking to incorporate Real Estate/Mortgage data for coding applications.
 </Typography>
 </Grid>
-<Grid item xs={12} sm={6} md={8} lg={10} sx={{ m: 'auto' }}>
-<CertificationTable />
+<Grid item xs={10} sm={10} md={10} lg={10} sx={{ m: 'auto' }} >
+<CertificationTable align="center" margin="auto"/>
 </Grid>
-<Grid item xs={12} sm={6} md={8} lg={10} sx={{ m: 'auto' }}>
+<Grid item xs={10} sm={10} md={10} lg={10} sx={{ m: 'auto' }}>
 <SkillsTable />
 </Grid>
-<Grid item xs={10} sm={4} md={6} lg={8} sx={{ m: 'auto' }}>
+<Grid item xs={8} sm={8} md={8} lg={10} sx={{ m: 'auto' }}>
                 <ColorsTimeline />
             </Grid>
             </Grid>

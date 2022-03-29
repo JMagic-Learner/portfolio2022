@@ -36,13 +36,13 @@ export default function Home() {
     <Card >
        <CardMedia
         component="img"
-        height="400"
+        height sx={8} md={12} lg={12}
         image="./assets/images/JasonMaBanner.jpg"
         alt="green iguana"
       /> 
       {/* <Image src="./assets/images/AssaultIntercessor.jpg" /> */}
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div" margin="auto" align="center">
+        <Typography gutterBottom variant="h5" component="div" margin="auto" align="center" sx={8} md={12} lg={12}>
             JASON MA PORTFOLIO
         </Typography>
       </CardContent>
