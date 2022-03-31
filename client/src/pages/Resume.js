@@ -19,7 +19,7 @@ return (
 <Grid item xs={8} sm={8} md={8} lg={10} sx={{ m: 'auto' }}>
 <Card>
   <CardContent align="center">
-<Button size="small"  sx={{ mx: "auto" }} ><Typography align="center"><a href="/assets/download/JASON_MA_RESUME.PDF" download="Jason_Ma_Resume.PDF">CLICK TO DOWNLOAD RESUME</a></Typography></Button>
+<Button size="small"  sx={{ mx: "auto" }} ><Typography align="center"><a href="/assets/download/JASON_MA_RESUME.PDF" download="JASON_MA_RESUME.PDF">CLICK TO DOWNLOAD RESUME</a></Typography></Button>
 </CardContent>
 </Card>
 <Typography align="center" variant="h8" margin="auto"> 
