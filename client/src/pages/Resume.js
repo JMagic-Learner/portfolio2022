@@ -17,7 +17,7 @@ return (
     <Box sx={{ flexGrow: 1 }}>
 
 <Typography align="center" variant="h2" marginTop="1%"> RESUME </Typography>
-<Download />
+{/* <Download /> */}
 
 <Grid container spacing={2} margin="auto"> 
 <Grid item xs={8} sm={8} md={8} lg={10} sx={{ m: 'auto' }}>
