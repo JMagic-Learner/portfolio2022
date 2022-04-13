@@ -76,11 +76,10 @@ export default function Bio() {
           <Card item sx={2} md={4} lg={6}>
             <CardMedia
               component="img"
-              height="400"
+              height="100%"
               image="./assets/images/Bio-Picture.jpg"
-              alt="green iguana"
+              alt="A picture of myself, for the Biography page"
             />
-            {/* <Image src="./assets/images/AssaultIntercessor.jpg" /> */}
           
           </Card>
         </Grid>
