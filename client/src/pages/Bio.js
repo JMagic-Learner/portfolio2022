@@ -72,12 +72,12 @@ export default function Bio() {
 
 
         {/* This is where the card for the full length picture is going to be"*/}
-        <Grid item xs={4}>
+        <Grid item xs={4} margin="auto">
           <Card item sx={2} md={4} lg={6}>
             <CardMedia
               component="img"
               height="400"
-              image="./assets/images/Linkedin.jpg"
+              image="./assets/images/Bio-Picture.jpg"
               alt="green iguana"
             />
             {/* <Image src="./assets/images/AssaultIntercessor.jpg" /> */}
