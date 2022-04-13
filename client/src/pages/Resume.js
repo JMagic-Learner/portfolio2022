@@ -8,6 +8,8 @@ import SkillsTable from '../components/SkillsTable';
 import ColorsTimeline from '../components/Timeline';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
+import Download from "../components/Download";
+
 
 export default function Resume() {
 
@@ -15,12 +17,14 @@ return (
     <Box sx={{ flexGrow: 1 }}>
 
 <Typography align="center" variant="h2" marginTop="1%"> RESUME </Typography>
+<Download />
 
 <Grid container spacing={2} margin="auto"> 
 <Grid item xs={8} sm={8} md={8} lg={10} sx={{ m: 'auto' }}>
 <Card>
   <CardContent align="center">
-<Button size="small"  sx={{ mx: "auto" }} ><Typography align="center"><a href={process.env.PUBLIC_URL + "./assets/download/JASON_MA_RESUME.PDF"} download="JASON_MA_RESUME.PDF">CLICK TO DOWNLOAD RESUME</a></Typography></Button>
+  {/* process.env.PUBLIC_URL */}
+<Button size="small"  sx={{ mx: "auto" }} ><Typography align="center"><a href={"https://jason-portfolio2022.herokuapp.com/assets/download/JASON_MA_RESUME.PDF"} download="JASON_MA_RESUME.PDF">CLICK TO DOWNLOAD RESUME</a></Typography></Button>
 </CardContent>
 </Card>
 <Typography align="center" variant="h8" margin="auto"> 
