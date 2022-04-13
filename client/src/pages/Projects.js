@@ -38,7 +38,6 @@ export default function Projects() {
 
           <Box sx={{ flexGrow: 1 }}>
             <Typography sx={{ p: 2.0 }} variant="h2" align="center"> Projects</Typography>
-            <Typography sx={{ p: 2.0 }} variant="h2" align="center"> Testing</Typography>
             <Grid container spacing={1}>
 
            
