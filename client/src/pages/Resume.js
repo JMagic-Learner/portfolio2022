@@ -24,7 +24,7 @@ return (
 <Card>
   <CardContent align="center">
   {/* process.env.PUBLIC_URL */}
-<Button size="small"  sx={{ mx: "auto" }} ><Typography align="center"><a href={"https://jason-portfolio2022.herokuapp.com/assets/download/JASON_MA_RESUME.PDF"} download="JASON_MA_RESUME.PDF">CLICK TO DOWNLOAD RESUME</a></Typography></Button>
+<Button size="small"  sx={{ mx: "auto" }} ><Typography align="center"><a href={ process.env.PUBLIC_URL + "./assets/download/JASON_MA_RESUME.PDF"} download="JASON_MA_RESUME.PDF">CLICK TO DOWNLOAD RESUME</a></Typography></Button>
 </CardContent>
 </Card>
 <Typography align="center" variant="h8" margin="auto"> 
