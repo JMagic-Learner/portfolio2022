@@ -65,10 +65,9 @@ export default function Projects() {
                   /> 
                  <CardContent>
                 <Typography align="center" variant="h6"> {element.name} </Typography>
-                <Typography align="center" > {element.description} </Typography>
+                <Typography align="center" > Description: <a href={element.description} target="_blank" rel="noreferrer" margin="auto" > {element.description} </a> </Typography>
                 <Typography align="center" > Live Link: <a href={element.link} target="_blank" rel="noreferrer" margin="auto" > {element.link} </a> </Typography>
-                <Typography align="center" > Github: {element.github} </Typography>
-                <Typography align="center" > Media: {element.media} </Typography>
+                <Typography align="center" > Github: <a href={element.github} target="_blank" rel="noreferrer" margin="auto" > {element.github} </a> </Typography>
                 
                 </CardContent>
                 </Card>
