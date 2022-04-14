@@ -9,6 +9,7 @@ import ColorsTimeline from '../components/Timeline';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Download from "../components/Download";
+import { Link } from 'react-router-dom';
 
 
 export default function Resume() {
