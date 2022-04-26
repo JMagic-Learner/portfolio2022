@@ -42,6 +42,8 @@ export default function Projects() {
 
            
               <Grid item xs={8} sm={6} md={4} sx={{ m: 'auto' }}>
+
+              {/* ProjectsArray is then mapped. For each array value, we then produce a card */}
               {ProjectsArray.map((element) => {
                 
               if(element) {

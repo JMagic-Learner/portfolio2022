@@ -25,7 +25,8 @@ return (
 <Card>
   <CardContent align="center">
   {/* process.env.PUBLIC_URL */}
-<Button size="small"  sx={{ mx: "auto" }} ><Typography align="center"><a href={ process.env.PUBLIC_URL + "./assets/download/JASON_MA_RESUME.PDF"} download="JASON_MA_RESUME.PDF">CLICK TO DOWNLOAD RESUME</a></Typography></Button>
+{/* <Button size="small"  sx={{ mx: "auto" }} ><Typography align="center"><a href={ process.env.PUBLIC_URL + "./assets/download/JASON_MA_RESUME.PDF"} download="JASON_MA_RESUME.PDF">CLICK TO DOWNLOAD RESUME</a></Typography></Button> */}
+<Typography align="center" > Live Link: <a href="https://docs.google.com/document/d/1NOyR6si_J3xfYLXQbZqSLbIHyoFKiYwZ/edit?usp=sharing&ouid=110295806684900498025&rtpof=true&sd=true" target="_blank" rel="noreferrer" margin="auto" > Resume </a> </Typography>
 </CardContent>
 </Card>
 <Typography align="center" variant="h8" margin="auto"> 
