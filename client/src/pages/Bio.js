@@ -59,17 +59,6 @@ export default function Bio() {
               I would love to share how my strengths and coding experiences would be of great benefit to your development team. 
             </Typography>
           </Box>
-          <Box className="bio-paragraph"> 
-            <Typography align="center" variant="h5"> HOBBIES </Typography>
-            <Typography > Junior Software Engineer with background in economics / statistics. 
-              Recently certified in full-stsack development for Javascript, MongoDB, HTML, CSS, REACT.js and GraphQl. 
-              Prioritizes UI design and end-user interactivity. Experienced with team projects for coding, especially in regards to meeting deadlines for assigned tasks. 
-              Example projects include an calendar app to record and track nearby events, a project that uses Spotify API to display soundtracks and songs via search, and Historian, 
-              a project that utilizes MERN stack and database queries to dynamically render and store historic events. 
-              I am currently coding an application to streamline Warhammer 40k 9E Objective scoring via MERN and MUI. 
-              I would love to share how my strengths and coding experiences would be of great benefit to your development team. 
-            </Typography>
-          </Box>
         </div>
         </Grid>
         

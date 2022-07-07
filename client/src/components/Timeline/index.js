@@ -25,8 +25,26 @@ export default function ColorsTimeline() {
         <TimelineContent>
           <Card>
             <CardContent>
+              <Typography align="center" variant="h6"> Antra Inc - Intern Trainee </Typography>
+              <Typography align="center" variant="h6"> May 2022 - Present </Typography>
+              <Typography align="justify"> ● Implented code for review by senior engineers.</Typography> 
+              <Typography align="justify"> ● Utlize a wide variety of coding languages to build REACT applications</Typography> 
+              <Typography align="justify"> ● Used REST APIs to query and display data </Typography> 
+              <Typography align="justify"> ● Worked on building a standalone component for component library project</Typography>
+            </CardContent>
+          </Card>
+        </TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineSeparator>
+          <TimelineDot color="secondary" />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          <Card>
+            <CardContent>
               <Typography align="center" variant="h6"> Robert Half / Credit Human - Loan Processor </Typography>
-              <Typography align="center" variant="h6"> May 2021 - Present </Typography>
+              <Typography align="center" variant="h6"> May 2021 - May 2022 </Typography>
               <Typography align="justify"> ● Collaborated with stakeholders to manage loan files and databases and prepare general correspondence.</Typography> 
               <Typography align="justify"> ● Reviewed loan files for completeness, identified missing documentation and generated condition lists for applicants.</Typography> 
               <Typography align="justify"> ● Generated loan documents, including flood/tax certificates, notes/security disclosures, escrow instructions etc. </Typography> 
@@ -34,7 +52,6 @@ export default function ColorsTimeline() {
               <Typography align="justify"> ● Audited and funded loans applications.</Typography>
             </CardContent>
           </Card>
-
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
