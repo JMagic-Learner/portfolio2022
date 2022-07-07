@@ -21,7 +21,7 @@ return (
 {/* <Download /> */}
 
 <Grid container spacing={2} margin="auto"> 
-<Grid item xs={8} sm={8} md={8} lg={10} sx={{ m: 'auto' }}>
+            <Grid item xs={6} sm={6} md={8} lg={8} sx={{ m: 'auto' }}>
 <Card>
   <CardContent align="center">
   {/* process.env.PUBLIC_URL */}
@@ -29,13 +29,13 @@ return (
 <Typography align="center" > Live Link: <a href="https://docs.google.com/document/d/1NOyR6si_J3xfYLXQbZqSLbIHyoFKiYwZ/edit?usp=sharing&ouid=110295806684900498025&rtpof=true&sd=true" target="_blank" rel="noreferrer" margin="auto" > Resume </a> </Typography>
 </CardContent>
 </Card>
-<Typography align="center" variant="h8" margin="auto"> 
-Recently certified in full-stack development for Javascript, MongoDB, HTML, CSS, REACT.js and GraphQl. 
-Prioritizes UI design and end-user interactivity. Experienced with team projects for coding. 
-Example projects include a calendar app to record and track nearby events, a project that uses Spotify API to display soundtracks and songs via search, and Historian, a project that utilizes MERN stack and database queries to dynamically render and store historic events. 
-Currently coding an application to streamline Warhammer 40k 9E Objective scoring via MERN and MUI. 
-Looking to incorporate Real Estate/Mortgage data for coding applications.
-</Typography>
+      <Typography align="center" variant="h8" margin="auto"> 
+          Recently certified in full-stack development for Javascript, MongoDB, HTML, CSS, REACT.js and GraphQl. 
+          Prioritizes UI design and end-user interactivity. Experienced with team projects for coding. 
+          Example projects include a calendar app to record and track nearby events, a project that uses Spotify API to display soundtracks and songs via search, and Historian, a project that utilizes MERN stack and database queries to dynamically render and store historic events. 
+          Currently coding an application to streamline Warhammer 40k 9E Objective scoring via MERN and MUI. 
+          Looking to incorporate Real Estate/Mortgage data for coding applications.
+      </Typography>
 </Grid>
 <Grid item xs={10} sm={10} md={10} lg={10} sx={{ m: 'auto' }} >
 <CertificationTable align="center" margin="auto"/>

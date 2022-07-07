@@ -5,13 +5,22 @@ import { Grid } from '@mui/material';
 //Table Components
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
-import TableCell from '@mui/material/TableCell';
+import TableCell, { tableCellClasses } from '@mui/material/TableCell';
+import { styled } from '@mui/material/styles';
 import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 
-
+const StyledTableCell = styled(TableCell)(({ theme }) => ({
+  [`&.${tableCellClasses.head}`]: {
+    backgroundColor: theme.palette.common.black,
+    color: theme.palette.common.white,
+  },
+  [`&.${tableCellClasses.body}`]: {
+    fontSize: 14,
+  },
+}));
 
 // createData defines columns.
 function createData(CODING, FINANCE, ADMINISTRATIVE, REAL_ESTATE) {
@@ -44,10 +53,10 @@ export default function SkillsTable() {
               <Table sx={{ minWidth: 650 }} aria-label="simple table">
                 <TableHead>
                   <TableRow>
-                    <TableCell>Coding Languages</TableCell>
-                    <TableCell align="right">FINANCE</TableCell>
-                    <TableCell align="right">ADMINISTRATIVE</TableCell>
-                    <TableCell align="right">REAL_ESTATE</TableCell>
+                    <StyledTableCell align="center"> CODING LANGUAGES</StyledTableCell>
+                    <StyledTableCell align="center">FINANCE</StyledTableCell>
+                    <StyledTableCell align="center">ADMINISTRATIVE</StyledTableCell>
+                    <StyledTableCell align="center">REAL ESTATE</StyledTableCell>
                   </TableRow>
                 </TableHead>
                 <TableBody>
@@ -56,10 +65,10 @@ export default function SkillsTable() {
                       key={row.Institution}
                       sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
                     >
-                      <TableCell component="th" scope="row">{row.CODING}</TableCell>
-                      <TableCell align="right">{row.FINANCE}</TableCell>
-                      <TableCell align="right">{row.ADMINISTRATIVE}</TableCell>
-                      <TableCell align="right">{row.REAL_ESTATE}</TableCell>
+                      <StyledTableCell align="center">{row.CODING}</StyledTableCell>
+                      <StyledTableCell align="center">{row.FINANCE}</StyledTableCell>
+                      <StyledTableCell align="center">{row.ADMINISTRATIVE}</StyledTableCell>
+                      <StyledTableCell align="center">{row.REAL_ESTATE}</StyledTableCell>
                     </TableRow>
                   ))}
                 </TableBody>
