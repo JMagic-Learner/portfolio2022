@@ -35,17 +35,20 @@ export default function Bio() {
     <Box sx={{ flexGrow: 1 }}>
       {/* Lets define the two columns, with spacing in between of 2 */}
       <Typography align="center" variant="h3" marginTop={4}> BIOGRAPHY </Typography>
+
+      
       <Grid container spacing={2} marginTop={4}>
         {/* This is going to be where the text bio is */}
         <Grid item sx={2} md={4} lg={6} marginLeft={6}>
-        <Card item sx={2} md={4} lg={6} >
+        <div className="bio-vertical-center"> 
+        <Box className="bio-paragraph"> 
             <Typography align="center" variant="h5"> REAL ESTATE </Typography>
             <Typography > Starting in 2009 , my father and I began to flip real estate. In addition to my academic studies at FWPA, I had the opportunity to
               experience and help my family in a little venture called Greenville Properties LLC. Since then, I studied Real Estate and obtained a WA Real Estate Broker License.
               I am currently an Windermere REALTOR, aiming to incorporate the Zillow API with my real estate background.
             </Typography>
-          </Card>
-          <Card item sx={2} md={4} lg={6} >
+          </Box>
+          <Box className="bio-paragraph"> 
             <Typography align="center" variant="h5"> CODING </Typography>
             <Typography > Junior Software Engineer with background in economics / statistics. 
               Recently certified in full-stsack development for Javascript, MongoDB, HTML, CSS, REACT.js and GraphQl. 
@@ -55,8 +58,8 @@ export default function Bio() {
               I am currently coding an application to streamline Warhammer 40k 9E Objective scoring via MERN and MUI. 
               I would love to share how my strengths and coding experiences would be of great benefit to your development team. 
             </Typography>
-          </Card>
-          <Card item sx={2} md={4} lg={6} >
+          </Box>
+          <Box className="bio-paragraph"> 
             <Typography align="center" variant="h5"> HOBBIES </Typography>
             <Typography > Junior Software Engineer with background in economics / statistics. 
               Recently certified in full-stsack development for Javascript, MongoDB, HTML, CSS, REACT.js and GraphQl. 
@@ -66,9 +69,10 @@ export default function Bio() {
               I am currently coding an application to streamline Warhammer 40k 9E Objective scoring via MERN and MUI. 
               I would love to share how my strengths and coding experiences would be of great benefit to your development team. 
             </Typography>
-          </Card>
+          </Box>
+        </div>
         </Grid>
-
+        
 
 
         {/* This is where the card for the full length picture is going to be"*/}

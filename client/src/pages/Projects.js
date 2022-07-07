@@ -28,6 +28,7 @@ export default function Projects() {
   }
   if (data) {
     console.log('We have found data from projects');
+    console.log(data)
   }
 
   // Find projects array or return empty string.
@@ -35,15 +36,18 @@ export default function Projects() {
   console.log(ProjectsArray);
   console.log(JSON.stringify(ProjectsArray.name));
     return(
+        
+      
 
+          
           <Box sx={{ flexGrow: 1 }}>
             <Typography sx={{ p: 2.0 }} variant="h2" align="center"> Projects</Typography>
             <Grid container spacing={1}>
 
-           
+            
               <Grid item xs={8} sm={6} md={4} sx={{ m: 'auto' }}>
-
-              {/* ProjectsArray is then mapped. For each array value, we then produce a card */}
+              
+            
               {ProjectsArray.map((element) => {
                 
               if(element) {
@@ -78,13 +82,13 @@ export default function Projects() {
               })}
                 
               </Grid> 
-          
-              
+             
               
               
             </Grid> 
           
-          </Box>
-           
+          </Box> 
+        
         );
+      
       }

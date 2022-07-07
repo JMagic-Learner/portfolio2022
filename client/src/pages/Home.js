@@ -4,8 +4,10 @@ import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import CardActions from '@mui/material/CardActions';
-import Button from '@mui/material/Button';
+import Contact from "./Contact"
+import Bio from "./Bio"
+import Resume from "./Resume"
+import Projects from "./Projects"
 import Grid from '@mui/material/Grid';
 import { ThemeProvider } from '@emotion/react';
 import { createTheme } from '@mui/material/styles';
@@ -32,7 +34,7 @@ export default function Home() {
         
     <Box sx={{ flexGrow: 1 }}>
            <Grid container spacing={2}> 
-      <Grid item sx={8} md={12} lg={12} >
+              <Grid item sx={8} md={12} lg={12} >
     <Card >
        <CardMedia
         component="img"
@@ -55,7 +57,14 @@ export default function Home() {
         </Typography>
       </CardContent>
     </Card>
-    </Grid>
+              </Grid>
+              <Grid item sx={8} md={12} lg={12} >
+                
+                <Bio/>
+                <Resume/>
+                <Contact/>
+                
+              </Grid>
     </Grid>
           
       </Box>
